@@ -103,7 +103,7 @@ bot.dialog('/', [
         for (var p = 0; p < session.conversationData.pizzas.length; p++){
             orderSummary += getPizzaDesc(session.conversationData.pizzas[p]);
         }
-        orderSummary += "\n\nYour pizza will be ready in 15 minutes.";
+        orderSummary += "\n\nYour pizza will be ready in 15-20 minutes.";
         session.send(orderSummary);
         session.endConversation("Thanks for choosing Speedway Pizza!");
     }
