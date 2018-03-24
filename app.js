@@ -186,5 +186,5 @@ function getPizzaDesc(currentPizza) {
         }
     }
     return pizzaDesc;
-}
+};
 
